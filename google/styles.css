@@ -1,4 +1,6 @@
 body {
+  margin:0;
+  padding:0;
 }
 ul {
 list-style-type:none;
@@ -12,9 +14,28 @@ color: gray;
 }
 #navigationBar {
   background-color: black;
+  height: 40px;
 }
 .googleImg {
 }
 #searchArea{
-  margin: 0 200px;
+  margin: 200px auto;
+  text-align:center;
+  width: 800px;
+}
+input{
+  margin:40px 0px 0px 0px;
+  width: 541px;
+  height: 27px;
+  line-height: 23px;
+}
+button{
+  /*width: 96px;*/
+  height: 29px;
+  margin: 16px 8px;
+  text-decoration: strong;
+  background-color: #d1d1d1;
+  border-radius: 6px;
+  box-shadow: none;
+  font-weight:bold;
 }
