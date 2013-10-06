@@ -1,3 +1,20 @@
 body {
-  /* rules go here */
+}
+ul {
+list-style-type:none;
+margin:0;
+padding:5px;
+}
+li {
+display:inline;
+margin: 10px;
+color: gray;
+}
+#navigationBar {
+  background-color: black;
+}
+.googleImg {
+}
+#searchArea{
+  margin: 0 200px;
 }
